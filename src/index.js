@@ -7,11 +7,11 @@ import "./styles/app.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
 
-import Home from "./components/home";
-import Inbox from "./components/inbox";
-import Register from "./components/register";
-import Contact from "./components/contact";
 const About = lazy(() => import("./components/about"));
+const Inbox = lazy(() => import("./components/inbox"));
+const Register = lazy(() => import("./components/register"));
+const Home = lazy(() => import("./components/home"));
+const Contact = lazy(() => import("./components/contact"));
 const App = () => {
   return (
     <BrowserRouter>
