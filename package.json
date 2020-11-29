@@ -1,3 +1,4 @@
+
 {
   "name": "code-splitting",
   "version": "0.1.0",
@@ -10,6 +11,7 @@
     "react-scripts": "3.4.4"
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -27,6 +29,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
